@@ -1,126 +1,110 @@
 const backend="https://leadflow-1-py6b.onrender.com/Avital";
 
-async function wakeServer(){
+const status = document.getElementById("status");
 
-try{
+async function checkServer() {
+    try {
+        status.innerHTML = "Checking server...";
 
-const response=await fetch(backend,{
+        const response = await fetch(backend, {
+            method: "HEAD",
+            cache: "no-store"
+        });
 
-method:"HEAD",
+        if (response.ok) {
+            status.innerHTML = "Server is ready! Redirecting...";
+            window.location.href = backend;
+            return;
+        }
+    } catch (error) {
+        status.innerHTML = "Starting server... Please wait.";
+    }
 
-cache:"no-store"
-
-});
-
-if(response.ok){
-
-window.location.href=backend;
-
-return;
-
+    setTimeout(checkServer, 3000);
 }
 
-}catch(e){}
-
-setTimeout(wakeServer,3000);
-
-}
-
-wakeServer();
-}
+checkServer();
 
 const backend="https://leadflow-1-py6b.onrender.com/Bururan";
 
-async function wakeServer(){
+const status = document.getElementById("status");
 
-try{
+async function checkServer() {
+    try {
+        status.innerHTML = "Checking server...";
 
-const response=await fetch(backend,{
+        const response = await fetch(backend, {
+            method: "HEAD",
+            cache: "no-store"
+        });
 
-method:"HEAD",
+        if (response.ok) {
+            status.innerHTML = "Server is ready! Redirecting...";
+            window.location.href = backend;
+            return;
+        }
+    } catch (error) {
+        status.innerHTML = "Starting server... Please wait.";
+    }
 
-cache:"no-store"
-
-});
-
-if(response.ok){
-
-window.location.href=backend;
-
-return;
-
+    setTimeout(checkServer, 3000);
 }
 
-}catch(e){}
-
-setTimeout(wakeServer,3000);
-
-}
-
-wakeServer();
-}
+checkServer();
 
 const backend="https://leadflow-1-py6b.onrender.com/Fisio-forte";
 
-async function wakeServer(){
+const status = document.getElementById("status");
 
-try{
+async function checkServer() {
+    try {
+        status.innerHTML = "Checking server...";
 
-const response=await fetch(backend,{
+        const response = await fetch(backend, {
+            method: "HEAD",
+            cache: "no-store"
+        });
 
-method:"HEAD",
+        if (response.ok) {
+            status.innerHTML = "Server is ready! Redirecting...";
+            window.location.href = backend;
+            return;
+        }
+    } catch (error) {
+        status.innerHTML = "Starting server... Please wait.";
+    }
 
-cache:"no-store"
-
-});
-
-if(response.ok){
-
-window.location.href=backend;
-
-return;
-
+    setTimeout(checkServer, 3000);
 }
 
-}catch(e){}
-
-setTimeout(wakeServer,3000);
-
-}
-
-wakeServer();
-}
+checkServer();
 
 const backend="https://leadflow-1-py6b.onrender.com/Vizilax";
 
-async function wakeServer(){
+const status = document.getElementById("status");
 
-try{
+async function checkServer() {
+    try {
+        status.innerHTML = "Checking server...";
 
-const response=await fetch(backend,{
+        const response = await fetch(backend, {
+            method: "HEAD",
+            cache: "no-store"
+        });
 
-method:"HEAD",
+        if (response.ok) {
+            status.innerHTML = "Server is ready! Redirecting...";
+            window.location.href = backend;
+            return;
+        }
+    } catch (error) {
+        status.innerHTML = "Starting server... Please wait.";
+    }
 
-cache:"no-store"
-
-});
-
-if(response.ok){
-
-window.location.href=backend;
-
-return;
-
+    setTimeout(checkServer, 3000);
 }
 
-}catch(e){}
-
-setTimeout(wakeServer,3000);
-
-}
-
-wakeServer();
-}
+checkServer();
 
 const backend="https://leadflow-1-py6b.onrender.com/Otoryx";
 
@@ -155,93 +139,81 @@ wakeServer();
 
 const backend="https://leadflow-1-py6b.onrender.com/Urozex";
 
-async function wakeServer(){
+const status = document.getElementById("status");
 
-try{
+async function checkServer() {
+    try {
+        status.innerHTML = "Checking server...";
 
-const response=await fetch(backend,{
+        const response = await fetch(backend, {
+            method: "HEAD",
+            cache: "no-store"
+        });
 
-method:"HEAD",
+        if (response.ok) {
+            status.innerHTML = "Server is ready! Redirecting...";
+            window.location.href = backend;
+            return;
+        }
+    } catch (error) {
+        status.innerHTML = "Starting server... Please wait.";
+    }
 
-cache:"no-store"
-
-});
-
-if(response.ok){
-
-window.location.href=backend;
-
-return;
-
+    setTimeout(checkServer, 3000);
 }
 
-}catch(e){}
-
-setTimeout(wakeServer,3000);
-
-}
-
-wakeServer();
-}
+checkServer();
 
 const backend="https://leadflow-1-py6b.onrender.com/Urodoc";
 
-async function wakeServer(){
+const status = document.getElementById("status");
 
-try{
+async function checkServer() {
+    try {
+        status.innerHTML = "Checking server...";
 
-const response=await fetch(backend,{
+        const response = await fetch(backend, {
+            method: "HEAD",
+            cache: "no-store"
+        });
 
-method:"HEAD",
+        if (response.ok) {
+            status.innerHTML = "Server is ready! Redirecting...";
+            window.location.href = backend;
+            return;
+        }
+    } catch (error) {
+        status.innerHTML = "Starting server... Please wait.";
+    }
 
-cache:"no-store"
-
-});
-
-if(response.ok){
-
-window.location.href=backend;
-
-return;
-
+    setTimeout(checkServer, 3000);
 }
 
-}catch(e){}
-
-setTimeout(wakeServer,3000);
-
-}
-
-wakeServer();
-}
+checkServer();
 
 const backend="https://leadflow-1-py6b.onrender.com/Bururan";
 
-async function wakeServer(){
+const status = document.getElementById("status");
 
-try{
+async function checkServer() {
+    try {
+        status.innerHTML = "Checking server...";
 
-const response=await fetch(backend,{
+        const response = await fetch(backend, {
+            method: "HEAD",
+            cache: "no-store"
+        });
 
-method:"HEAD",
+        if (response.ok) {
+            status.innerHTML = "Server is ready! Redirecting...";
+            window.location.href = backend;
+            return;
+        }
+    } catch (error) {
+        status.innerHTML = "Starting server... Please wait.";
+    }
 
-cache:"no-store"
-
-});
-
-if(response.ok){
-
-window.location.href=backend;
-
-return;
-
+    setTimeout(checkServer, 3000);
 }
 
-}catch(e){}
-
-setTimeout(wakeServer,3000);
-
-}
-
-wakeServer();
-}
+checkServer();
