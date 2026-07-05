@@ -1,73 +1,247 @@
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-}
+const backend="https://leadflow-1-py6b.onrender.com/Avital";
 
-body{
+async function wakeServer(){
 
-height:100vh;
+try{
 
-display:flex;
+const response=await fetch(backend,{
 
-justify-content:center;
+method:"HEAD",
 
-align-items:center;
+cache:"no-store"
 
-background:#f5f8fc;
+});
 
-font-family:Arial;
+if(response.ok){
 
-}
+window.location.href=backend;
 
-.loader-box{
-
-text-align:center;
+return;
 
 }
 
-h1{
+}catch(e){}
 
-font-size:45px;
-
-margin-bottom:15px;
-
-color:#0b5cff;
+setTimeout(wakeServer,3000);
 
 }
 
-p{
+wakeServer();
+}
 
-color:#666;
+const backend="https://leadflow-1-py6b.onrender.com/Bururan";
 
-margin:10px;
+async function wakeServer(){
+
+try{
+
+const response=await fetch(backend,{
+
+method:"HEAD",
+
+cache:"no-store"
+
+});
+
+if(response.ok){
+
+window.location.href=backend;
+
+return;
 
 }
 
-.spinner{
+}catch(e){}
 
-width:70px;
-
-height:70px;
-
-margin:auto;
-
-border:7px solid #ddd;
-
-border-top:7px solid #0b5cff;
-
-border-radius:50%;
-
-animation:spin 1s linear infinite;
+setTimeout(wakeServer,3000);
 
 }
 
-@keyframes spin{
+wakeServer();
+}
 
-100%{
+const backend="https://leadflow-1-py6b.onrender.com/Fisio-forte";
 
-transform:rotate(360deg);
+async function wakeServer(){
+
+try{
+
+const response=await fetch(backend,{
+
+method:"HEAD",
+
+cache:"no-store"
+
+});
+
+if(response.ok){
+
+window.location.href=backend;
+
+return;
 
 }
 
+}catch(e){}
+
+setTimeout(wakeServer,3000);
+
+}
+
+wakeServer();
+}
+
+const backend="https://leadflow-1-py6b.onrender.com/Vizilax";
+
+async function wakeServer(){
+
+try{
+
+const response=await fetch(backend,{
+
+method:"HEAD",
+
+cache:"no-store"
+
+});
+
+if(response.ok){
+
+window.location.href=backend;
+
+return;
+
+}
+
+}catch(e){}
+
+setTimeout(wakeServer,3000);
+
+}
+
+wakeServer();
+}
+
+const backend="https://leadflow-1-py6b.onrender.com/Otoryx";
+
+async function wakeServer(){
+
+try{
+
+const response=await fetch(backend,{
+
+method:"HEAD",
+
+cache:"no-store"
+
+});
+
+if(response.ok){
+
+window.location.href=backend;
+
+return;
+
+}
+
+}catch(e){}
+
+setTimeout(wakeServer,3000);
+
+}
+
+wakeServer();
+}
+
+const backend="https://leadflow-1-py6b.onrender.com/Urozex";
+
+async function wakeServer(){
+
+try{
+
+const response=await fetch(backend,{
+
+method:"HEAD",
+
+cache:"no-store"
+
+});
+
+if(response.ok){
+
+window.location.href=backend;
+
+return;
+
+}
+
+}catch(e){}
+
+setTimeout(wakeServer,3000);
+
+}
+
+wakeServer();
+}
+
+const backend="https://leadflow-1-py6b.onrender.com/Urodoc";
+
+async function wakeServer(){
+
+try{
+
+const response=await fetch(backend,{
+
+method:"HEAD",
+
+cache:"no-store"
+
+});
+
+if(response.ok){
+
+window.location.href=backend;
+
+return;
+
+}
+
+}catch(e){}
+
+setTimeout(wakeServer,3000);
+
+}
+
+wakeServer();
+}
+
+const backend="https://leadflow-1-py6b.onrender.com/Bururan";
+
+async function wakeServer(){
+
+try{
+
+const response=await fetch(backend,{
+
+method:"HEAD",
+
+cache:"no-store"
+
+});
+
+if(response.ok){
+
+window.location.href=backend;
+
+return;
+
+}
+
+}catch(e){}
+
+setTimeout(wakeServer,3000);
+
+}
+
+wakeServer();
 }
